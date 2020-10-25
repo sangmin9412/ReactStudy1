@@ -1,9 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
-// process.env.NODE_ENV = 'production';
 
 module.exports = {
-    name: 'tictactoe-setting',
+    name: 'wordrelay-setting',
     mode: 'development', // 실서비스 : production
     devtool: 'eval', // hidden-source-map
     resolve: {

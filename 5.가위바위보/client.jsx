@@ -2,8 +2,8 @@ const React = require('react');
 const ReactDom = require('react-dom');
 const { hot } = require('react-hot-loader/root');
 
-import MineSearch from './MineSearch';
+import RSP from './RSP';
 
-const Hot = hot(MineSearch);
+const Hot = hot(RSP);
 
 ReactDom.render(<Hot />, document.querySelector("#root"));
